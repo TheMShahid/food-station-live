@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font-awesome icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="nav-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li>
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li>
+          <a href="skills.html" class="nav-link">skills</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link">about</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link">products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2>over one hundred flavors of</h2>
+        <h1>specially <br />crafted tea</h1>
+        <a href="skills.html" class="btn banner-btn">explore</a>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- products -->
+    <section class="products">
+      <div class="section-center clearfix">
+        <!-- products info -->
+        <article class="products-info">
+          <!-- section title -->
+          <div class="section-title">
+            <h3>check out</h3>
+            <h2>our products</h2>
+          </div>
+          <!-- end of section title -->
+          <p class="products-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            delectus. Maiores velit ea sequi officia culpa, animi neque repellat
+            laborum!
+          </p>
+          <a href="products.html" class="btn">inventory</a>
+        </article>
+        <!-- products inventory -->
+        <article class="products-inventory clearfix">
+          <!-- single product -->
+          <div class="product">
+            <img
+              src="./images/food_images/f1.jpg"
+              class="product-img"
+              alt="single product" />
+            <h4 class="product-title">ginger peach recipe</h4>
+            <h4 class="product-price">$5.77</h4>
+          </div>
+          <!-- end of single product -->
+
+          <!-- single product -->
+          <div class="product">
+            <img
+              src="./images/food_images/f2.jpg"
+              class="product-img"
+              alt="single product" />
+            <h4 class="product-title">fruit sangria</h4>
+            <h4 class="product-price">$2.33</h4>
+          </div>
+          <!-- end of single product -->
+
+          <!-- single product -->
+          <div class="product">
+            <img
+              src="./images/food_images/f3.jpg"
+              class="product-img"
+              alt="single product" />
+            <h4 class="product-title">white burger</h4>
+            <h4 class="product-price">$15.77</h4>
+          </div>
+          <!-- end of single product -->
+        </article>
+      </div>
+    </section>
+    <!-- end of products -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <!-- social icons -->
+        <div class="social-icons">
+          <!-- social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- end of social icon -->
+
+          <!-- social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <!-- end of social icon -->
+
+          <!-- social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <!-- end of social icon -->
+
+          <!-- social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- end of social icon -->
+
+          <!-- social icon -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <!-- end of social icon -->
+        </div>
+        <!-- end of social icons -->
+
+        <h4 class="footer-text">
+          &copy; <span id="date"></span>
+          <span class="company">foods station</span>
+          all rights reserved.
+        </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- javascript file -->
+    <script src="./app.js"></script>
+  </body>
+</html>
